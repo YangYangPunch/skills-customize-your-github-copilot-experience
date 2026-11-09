@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Create a simple Python game that uses user input, loops, and conditionals to make an interactive and engaging experience for players.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Create the Game Setup
 
-## ✅ Must Have's
+#### Description
+Build a small game project in Python, such as a guessing game or Hangman, and set up the basic variables and rules.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Choose a game idea and define the objective clearly
+- Use variables to track the game state, score, or remaining attempts
+- Prompt the player for input using `input()`
+- Display a welcome message or instructions at the start of the game
+
+### 🛠️ Add Core Game Logic
+
+#### Description
+Implement the main gameplay loop so the player can interact with the game until they win or lose.
+
+#### Requirements
+Completed program should:
+
+- Use loops to continue the game until the end condition is met
+- Use conditionals to check player choices, guesses, or scores
+- Provide feedback after each turn, such as correct, incorrect, or progress updates
+- Include a win condition and a loss condition
+
+### 🛠️ Finish the Game Experience
+
+#### Description
+Polish the game so it is easy to play and clearly communicates the result to the user.
+
+#### Requirements
+Completed program should:
+
+- Show the current status clearly throughout the game
+- Display a final message when the player wins or loses
+- Keep the game playable and easy to understand
+- Optionally allow the player to play again after the round ends
